@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Online Test</string>
+
+    <string name="custom_navigation_view">Custom Navigation View</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="others">Others</string>
+
+    <string name="str_results">Results</string>
+    <string name="str_viewans">View Answer</string>
+
+    <!--  Navigation View String Values  -->
+    <string name="home">Home</string>
+    <string name="my_account">My Account</string>
+    <string name="tests">Tests</string>
+    <string name="marks">Marks</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/tvUsernameHF"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/tvHello"
+        android:layout_toRightOf="@+id/tvHello"
+        android:layout_toEndOf="@+id/tvHello" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Hello, "
+        android:textSize="25dp"
+        android:id="@+id/tvHello"
+        android:textColor="@color/black"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Welcome to online test portal."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcome"
+        android:layout_alignTop="@+id/tvUsernameHF"
+        android:layout_alignLeft="@+id/tvHello"
+        android:layout_alignStart="@+id/tvHello"
+        android:layout_marginTop="39dp" />
+
+  <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home_fragment"
+        android:id="@+id/ivHomeFragIcon"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>

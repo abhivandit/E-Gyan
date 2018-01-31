@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main Menus -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/my_account"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_my_account"
+            android:title="@string/my_account"/>
+
+        <item
+            android:id="@+id/tests"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_tests"
+            android:title="@string/tests"/>
+        <!--<item
+            android:id="@+id/marks"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_marks"
+            android:title="@string/marks"/>-->
+
+    </group>
+</menu>
