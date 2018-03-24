@@ -12,6 +12,7 @@ A working knowledge of databases and android development.
 2. PHP  
 3. MySql  
 4. WAMP/LAMP  
+5. UML
 
 #### Installing ####
 ## Deployment ##
